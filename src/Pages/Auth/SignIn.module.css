@@ -1,0 +1,105 @@
+.login {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login img {
+  margin: 30px auto;
+  object-fit: contain;
+  width: 200px;
+}
+
+.login__container {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.login__container h3 {
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.login__container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login__container form div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.login__container form input {
+  margin-bottom: 10px;
+  padding: 12px;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.login__container form input:focus {
+  outline: 2px solid #f0c14b;
+}
+
+.login__signInButton {
+  border: none;
+  background-color: #ffce12;
+  width: 100%;
+  height: 35px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 15px;
+}
+
+.login__signInButton:hover {
+  background-color: #ecac0a;
+}
+
+.login__container p {
+  padding: 10px 0;
+  font-size: 13px;
+}
+
+.toggleText {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #111;
+}
+
+.toggleLink {
+  color: #0066c0;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.toggleLink:hover {
+  text-decoration: underline;
+  color: #886f0a;
+}
+
+.error {
+  padding-top: 5px;
+  color: red;
+  font-size: 13px;
+}
+
+.redirectMsg {
+  padding: 5px;
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}

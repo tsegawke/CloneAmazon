@@ -1,0 +1,15 @@
+.pageWrapper {
+  padding: 50px;/* space from footer */
+  min-height: 10vh;     /* ensure it stretches to screen height */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+.products__container img{
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+    margin-bottom: 20px;
+    
+}

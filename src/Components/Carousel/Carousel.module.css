@@ -1,0 +1,58 @@
+.hero__wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero__img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  pointer-events: none;
+}
+
+.hero__img::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0),
+    rgba(255, 255, 255, 1)
+  );
+}
+
+/* --- Amazon-style arrows --- */
+.amazonArrow {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  height: 80%;            /* 👈 tall like Amazon */
+  width: 60px;            /* wide clickable area */
+  background: rgba(255, 255, 255, 0.1); /* transparent look */
+  border: none;
+  font-size: 40px;
+  font-weight: bold;
+  color: #111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  transition: background 0.2s ease;
+}
+
+.amazonArrow:hover {
+  background: rgba(0, 0, 0, 0.2); /* darker on hover */
+  color: #000;
+}
+
+.amazonArrowLeft {
+  left: 0;   /* stick outside left */
+}
+
+.amazonArrowRight {
+  right: 0;  /* stick outside right */
+}

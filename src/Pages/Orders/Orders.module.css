@@ -1,0 +1,40 @@
+.container {
+    background-color: #efeeee;
+    padding: 30px;
+}
+.flex {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.payment__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 50px;
+  align-items: stretch; /* makes all cards same height */
+}
+
+.orders__container {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.orders__container h2 {
+    border-bottom: 2px solid var(--primary-shade);
+    padding: 20px;
+}
+
+.orders__container p {
+    padding: 12px;
+}
+
+.orders__container img {
+    width: 180px !important;
+}
+.orders__container div{
+    height: auto !important;
+}

@@ -1,0 +1,40 @@
+.resultsSection {
+  padding: 20px 40px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #111;
+}
+
+.categoryPath {
+  font-size: 24px;
+  color: #111;
+  margin-bottom: 16px;
+}
+
+.resultsSection hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 10px 0 20px 0;
+}
+
+.products__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+  gap: 18px;
+  align-items: stretch;
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.products__container p {
+  grid-column: 1 / -1;
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+}

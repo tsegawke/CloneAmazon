@@ -1,0 +1,126 @@
+.footer__container {
+  color: white;
+}
+.footer__backToTop {
+  text-align: center;
+  background: #485769;
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.footer__backToTop a {
+  color: white;
+  text-decoration: none;
+}
+.footer__backToTop:hover {
+  background: #516172;
+}
+.footer__links {
+  display: flex;
+  justify-content: space-evenly;
+  background: #232f3e;
+  padding: 40px 20px;
+  border-bottom: 1px solid #525050;
+}
+.footer__links div h3 {
+  margin-bottom: 10px;
+}
+.footer__links div ul {
+  list-style: none;
+  line-height: 2;
+}
+.footer__links div ul li a {
+  font-size: 16px;
+  color: #ddd;
+  margin: 6px 0;
+  text-decoration: none;
+}
+.footer__links div ul li a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer__bottom {
+  background: #232f3e;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px;
+}
+.footer__bottom div {
+  border: 1px solid #ddd;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__bottom a {
+  color: white;
+  text-decoration: none;
+}
+.logo {
+  margin-top: 12px;
+}
+.logo > a > img {
+  border: none;
+  width: 100px;
+}
+.flag {
+  width: 20px;
+  margin-right: 5px;
+}
+.footer__bottom p {
+  color: #ddd;
+  font-size: 14px;
+}
+.footer__end {
+  background: #131a22;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #ddd;
+}
+.footer__endRight {
+  padding: 20px;
+}
+.footer__endLeft{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    gap: 10px;
+    padding: 20px;}
+.footer__endLeft li {
+    text-align: left;
+    list-style: none;
+    padding-bottom: 15px;
+    width: 110px;
+}
+.footer__endLeft li a {
+    text-decoration: none;
+    color: #ddd;
+    font-size: 14px;
+}
+.footer__endLeft li a:hover {
+    text-decoration: underline;
+}
+.footer__endLinks ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 10px;
+}
+.footer__endLinks ul li {
+  list-style: none;
+}
+.footer__endLinks ul li a {
+  text-decoration: none;
+  color: #ddd;
+}
+.footer__endLinks ul li a:hover {
+  text-decoration: underline;
+}
